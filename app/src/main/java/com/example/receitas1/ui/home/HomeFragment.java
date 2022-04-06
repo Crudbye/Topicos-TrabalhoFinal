@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -21,7 +20,7 @@ import com.example.receitas1.databinding.FragmentHomeBinding;
 import java.io.ByteArrayOutputStream;
 
 public class HomeFragment extends Fragment implements View.OnClickListener{
-
+    Intent i;
     private FragmentHomeBinding binding;
     private ImageView bt1;
    //private ImageView bytes;
@@ -30,7 +29,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
 
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
-        bt1 = (ImageView) rootView.findViewById(R.id.imgBolo);
+        bt1 = rootView.findViewById(R.id.imgBolo);
         bt1.setOnClickListener(this);
 
         HomeViewModel homeViewModel =
@@ -39,8 +38,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //final TextView textView;
+
         return root;
 
     }
@@ -54,14 +53,16 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     public void onClick(View view) {
         if(view.getId()==R.id.imgBolo){
             Drawable drawable = bt1.getDrawable();
-            Bitmap bitmap = ((BitmapDrawable)bt1.getDrawable()).getBitmap();
+            Bitmap bitmap = ((BitmapDrawable)drawable).getBitmap();
             ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
-            byte[] bytes = stream.toByteArray();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+            byte[] imageInByte = stream.toByteArray();
 
-            Intent intent = new Intent(this, bolocenoura.class);
-            intent.putExtra("bitmapbytes",bytes);
-            startActivity(intent);
+             i = new Intent(getActivity(), boloc.class);
+
+
+            i.putExtra("imagem", imageInByte);
+            startActivity(i);
         }
     }
 }

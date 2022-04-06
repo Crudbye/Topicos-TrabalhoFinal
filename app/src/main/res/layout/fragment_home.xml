@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,18 +8,12 @@
     tools:context=".ui.home.HomeFragment"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bem vindo"
@@ -50,12 +45,374 @@
     android:src="@drawable/bolocenoura"
     android:layout_gravity="center" />
 
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massa bolo"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 cenouras médias (250g)"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 ovos"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="meia xícara (chá) de óleo"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 e meia xícaras (chá) de farinha de trigo"
+        android:textSize="16dp"
+        android:textStyle=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 xícaras (chá) de açúcar "
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 colher (sopa) de fermento em pó"
+        android:textSize="16dp"
+        android:textStyle=""/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cobertura de Brigadeiro"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 Leite condensado (lata ou caixinha) 395g"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 colher (sopa) de manteiga"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="meia xícara (chá) de Chocolate em Pó"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 e meia xícaras (chá) de farinha de trigo"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modo Preparo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massa bolo"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1- Em um liquidificador, bata as cenouras, os ovos e o óleo."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2- Despeje a mistura em um recipiente e misture o açúcar e a farinha de trigo peneirada com o fermento."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3- Coloque em uma fôrma retangular (20 x 30 cm) untada, e leve ao forno médio (180°C), preaquecido, por 40 minutos."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4- Enquanto isso, prepare a cobertura de brigadeiro."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cobertura de Brigadeiro"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5- Em uma panela coloque o Leite Condensado, o Chocolate em Pó  e a manteiga e leve ao fogo baixo, mexendo sempre, até começar a desprender da panela."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 - Despeje ainda quente sobre o bolo, distribua o chocolate granulado e deixe esfriar."
+        android:textSize="16dp"
+        android:textStyle=""/>
+
     <ImageView
+        android:id="@+id/imgcinhao"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/bolocenoura"
-        android:layout_gravity="center" />
+        android:src="@drawable/coxinha"
+        android:layout_gravity="center"/>
 
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massa e Recheio"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 xícaras (chá) de água"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 tabletes de Caldo Galinha"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 quilo de peito de frango"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 batatas médias (cerca de 500 g)"
+        android:textSize="16dp"
+        android:textStyle=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 colheres (sopa) de óleo"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 cebola ralada"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 tomates sem sementes, em cubos pequenos"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 colheres (sopa) de azeitonas verdes picadas"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="meia xícara (chá) de salsa picada"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="100 g de manteiga"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 xícaras (chá) de farinha de trigo"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montagem"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 ovos batidos"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="farinha de rosca para empanar"
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modo Preparo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massa e Recheio"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1- Em uma panela, coloque a água, 3 tabletes de MAGGI Caldo, o peito de frango, as batatas e leve ao fogo, mexendo até o Caldo dissolver. Deixe cozinhar até ficar macio."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2- Reserve o caldo do cozimento e esprema as batatas ainda quentes e reserve-as. Desfie o frango."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3- Em uma panela, aqueça o óleo e doure levemente a cebola."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4- Junte o frango desfiado, os tomates e azeitona."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5- Adicione o MAGGI Caldo restante, meia xícara (chá) de água quente e refogue bem, até o Caldo secar. Acrescente a salsa, misture e deixe esfriar."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6- Em uma panela grande, coloque o caldo reservado - cerca de 5 xícaras (chá), as batatas espremidas e a manteiga e deixe levantar fervura."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7- Junte a farinha de trigo de uma só vez, mexendo vigorosamente, até obter uma massa homogênea."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8- Cozinhe por mais alguns minutos, mexendo sempre até a massa estar bem cozida e desgrudar do fundo da panela."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9- Despeje sobre uma superfície e sove a massa delicadamente até esfriar."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montagem"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10- Abra pequenas porções da massa na palma da mão e recheie."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11- Modele no formato de coxinhas, passe-as pela farinha de rosca, pelos ovos batidos e novamente pela farinha de rosca."
+        android:textSize="16dp"
+        android:textStyle=""/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12- Frite-as em óleo quente, escorra-as em papel toalha. Sirva."
+        android:textSize="16dp"
+        android:textStyle=""/>
 </LinearLayout>
+</ScrollView>

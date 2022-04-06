@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Receitas1">
         <activity
-            android:name=".ui.home.bolocenoura"
+            android:name=".ui.home.boloc"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

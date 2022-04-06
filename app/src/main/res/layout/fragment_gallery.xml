@@ -1,22 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.gallery.GalleryFragment">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
     <TextView
-        android:id="@+id/text_gallery"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Temos alguma receita:"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/bolinho"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredientes"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity=""/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Massa bolinho"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity=""/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 ovos"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¾ de xícara (chá) de açúcar"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 colheres (sopa) de manteiga"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="½ colher (chá) de sal"
+            android:textSize="16dp"
+            android:textStyle=""/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 colher (sopa) de fermento em pó"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 xícara (chá) de leite"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 xícaras (chá) de farinha de trigo"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="óleo para fritar"
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="açúcar e canela em pó para polvilhar"
+            android:textSize="16dp"
+            android:textStyle=""/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modo Preparo"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity=""/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Massa bolinho"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity=""/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1- Numa tigela, junte os ovos, a manteiga, o açúcar e o sal e misture muito bem."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2- Acrescente alternadamente à mistura o leite e a farinha de trigo, mexendo sempre com uma colher."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3- Junte o fermento e misture bem."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4- Numa panela média, coloque bastante óleo e leve ao fogo alto para aquecer."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5- Quando o óleo estiver quente, abaixe o fogo. "
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6- Com duas colheres de sobremesa, modele os bolinhos. Encha uma das colheres com a massa e passe de uma colher para a outra, até que a massa fique com um formato arredondado."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7- Com cuidado, coloque pequenas porções de bolinhos no óleo quente. Deixe fritar até que os bolinhos fiquem dourados."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8- Com uma escumadeira, retire os bolinhos e coloque sobre um prato forrado com papel-toalha."
+            android:textSize="16dp"
+            android:textStyle=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9- Num prato fundo, coloque açúcar e canela em pó e misture bem. Passe os bolinhos por essa mistura até envolvê-los completamente. Sirva a seguir."
+            android:textSize="16dp"
+            android:textStyle=""/>
+
+
+    </LinearLayout>
+</ScrollView>
